@@ -5,6 +5,8 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+$theme-darker:rgb(73, 3, 3);
 $theme-dark:#840E0E;
 $theme:#B23030;
 $theme-light:#E3A0A0;
@@ -12,8 +14,8 @@ $theme-lighter:#ffe8e8;
 $theme-faint:#FEF7F7;
 $blue-dark:#020438; 
 $blue-light:#EEFAFF;
-$grey-dark:#908F98;
-$grey: #E7E6EA;
+$grey-dark: #2a2323;
+$grey:#908F98;
 $grey-light:#f3f3f3ff;
 $black: #000000;
 
@@ -52,7 +54,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #68A4C4;
+  background: $theme;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -67,7 +69,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .back-to-top:hover {
   color: #fff;
-  background: #85b6cf;
+  background: $theme-darker;
   transition: background 0.2s ease-in-out;
 }
 
@@ -2054,7 +2056,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: $theme-darker;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2071,7 +2073,6 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #a2cce3;
 }
 
 #footer .footer-newsletter form {
@@ -2109,9 +2110,9 @@ section {
 }
 
 #footer .footer-top {
-  background: #0d2735;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
+  background: $theme-dark;
+  border-top: 1px solid $theme-dark;
+  border-bottom: 1px solid $theme-dark;
   padding: 60px 0 30px 0;
 }
 
@@ -2124,7 +2125,6 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #a2cce3;
   font-weight: 600;
 }
 
@@ -2139,7 +2139,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1e4356;
+  background: $grey-dark;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2160,7 +2160,6 @@ section {
 #footer .footer-top h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #a2cce3;
   position: relative;
   padding-bottom: 12px;
 }
