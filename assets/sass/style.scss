@@ -13,6 +13,9 @@ $blue-dark:#020438;
 $blue-light:#EEFAFF;
 $grey-dark:#908F98;
 $grey: #E7E6EA;
+$black: #000000;
+
+$text-dark: #000000;
 
 /*--------------------------------------------------------------
 # General
@@ -27,13 +30,14 @@ a {
 }
 
 a:hover {
-  color: #45beff;
+  color: $theme-light;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -135,7 +139,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #ddecf5;
+  color: $text-dark;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -143,7 +147,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #a2cce3;
+  color: $theme-dark;
   text-decoration: none;
 }
 
@@ -234,7 +238,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #1e4356;
+  background: white;
   transition: 0.4s;
 }
 
@@ -247,13 +251,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #ddecf5;
+  color: $text-dark;
   padding: 10px 20px;
   font-weight: 500;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #a2cce3;
+  color: $theme;
   text-decoration: none;
 }
 
@@ -298,7 +302,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: $text-dark;
 }
 
 .mobile-nav-overly {
@@ -308,7 +312,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(30, 67, 86, 0.9);
+  background: $theme-light;
+  opacity: 0.5;
   overflow: hidden;
   display: none;
 }
@@ -322,7 +327,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: $text-dark;
 }
 
 /*--------------------------------------------------------------
@@ -374,7 +379,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   left: 0;
   right: 0;
-  color: black;
+  color: $text-dark;
 }
 
 #hero h2 {
@@ -392,6 +397,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
+  color: $text-dark;
 }
 
 #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
@@ -400,6 +406,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 1;
   width: auto;
   height: auto;
+}
+
+#hero .carousel-indicators {
+  li {
+    background-color: $grey-dark !important;
+  
+    &.active {
+      background-color: $theme-dark !important;
+    }
+  }
 }
 
 #hero .btn-get-started {

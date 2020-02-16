@@ -18,9 +18,8 @@ a {
 }
 
 a:hover {
-  color: #45beff;
-  text-decoration: none;
-}
+  color: #E3A0A0;
+  text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
@@ -126,7 +125,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #ddecf5;
+  color: #000000;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -134,9 +133,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #a2cce3;
-  text-decoration: none;
-}
+  color: #840E0E;
+  text-decoration: none; }
 
 .nav-menu .drop-down ul {
   display: block;
@@ -226,9 +224,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #1e4356;
-  transition: 0.4s;
-}
+  background: white;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s; }
 
 .mobile-nav * {
   margin: 0;
@@ -239,15 +238,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #ddecf5;
+  color: #000000;
   padding: 10px 20px;
   font-weight: 500;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #a2cce3;
-  text-decoration: none;
-}
+  color: #B23030;
+  text-decoration: none; }
 
 .mobile-nav .drop-down > a:after {
   content: "";
@@ -290,8 +288,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
-}
+  color: #000000; }
 
 .mobile-nav-overly {
   width: 100%;
@@ -300,7 +297,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(30, 67, 86, 0.9);
+  background: #E3A0A0;
+  opacity: 0.5;
   overflow: hidden;
   display: none;
 }
@@ -314,8 +312,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
-}
+  color: #000000; }
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -363,8 +360,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   left: 0;
   right: 0;
-  color: black;
-}
+  color: #000000; }
 
 #hero h2 {
   margin-bottom: 30px;
@@ -380,7 +376,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
-}
+  color: #000000; }
 
 #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
@@ -389,6 +385,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: auto;
   height: auto;
 }
+
+#hero .carousel-indicators li {
+  background-color: #908F98 !important; }
+  #hero .carousel-indicators li.active {
+    background-color: #840E0E !important; }
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
