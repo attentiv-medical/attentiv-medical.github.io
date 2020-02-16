@@ -299,10 +299,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(254, 247, 247, 0.5)), to(rgba(254, 247, 247, 0.5))), url("../img/hero-bg.webp") center top no-repeat;
-  background: -webkit-linear-gradient(left, rgba(254, 247, 247, 0.5), rgba(254, 247, 247, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
-  background: -o-linear-gradient(left, rgba(254, 247, 247, 0.5), rgba(254, 247, 247, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
-  background: linear-gradient(to right, rgba(254, 247, 247, 0.5), rgba(254, 247, 247, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 232, 232, 0.5)), to(rgba(255, 232, 232, 0.5))), url("../img/hero-bg.webp") center top no-repeat;
+  background: -webkit-linear-gradient(left, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
+  background: -o-linear-gradient(left, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
+  background: linear-gradient(to right, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   -webkit-transform: translateX(-50%) rotate(0deg);
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   animation-delay: 0.8s;
   border: 2px solid #B23030; }
   #hero .btn-get-started:hover {
-    background: #FEF7F7;
+    background: #ffe8e8;
     text-decoration: none; }
 
 @media (min-width: 1024px) {
@@ -475,7 +475,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #68A4C4;
+  background: #B23030;
   bottom: 0;
   left: calc(50% - 20px); }
 
@@ -606,10 +606,13 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us .container {
+.why-us {
+  background: #FEF7F7; }
+
+.why-us .product-wrapper {
   -webkit-box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
-  background: #fff; }
+  background: #f3f3f3ff; }
 
 .why-us .icon-box + .icon-box {
   margin-top: 50px; }
@@ -627,21 +630,15 @@ section {
   justify-content: center;
   width: 72px;
   height: 72px;
-  background: #f3f8fa;
+  background: #ffe8e8;
   border-radius: 6px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
 
 .why-us .icon-box .icon i {
-  color: #68A4C4;
+  color: #B23030;
   font-size: 32px; }
-
-.why-us .icon-box:hover .icon {
-  background: #68A4C4; }
-
-.why-us .icon-box:hover .icon i {
-  color: #fff; }
 
 .why-us .icon-box .title {
   margin-left: 95px;
