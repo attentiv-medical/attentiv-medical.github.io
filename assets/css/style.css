@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #B23030; }
+  background: #E3A0A0; }
 
 #header.header-transparent {
   background: none; }
@@ -299,15 +299,23 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 232, 232, 0.5)), to(rgba(255, 232, 232, 0.5))), url("../img/hero-bg.webp") center top no-repeat;
-  background: -webkit-linear-gradient(left, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
-  background: -o-linear-gradient(left, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
-  background: linear-gradient(to right, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.webp") center top no-repeat;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 232, 232, 0.5)), to(rgba(255, 232, 232, 0.5))), url("../img/hero-bg.jpg") center top no-repeat;
+  background: -webkit-linear-gradient(left, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: -o-linear-gradient(left, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.jpg") center top no-repeat;
+  background-size: auto;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   -webkit-transform: translateX(-50%) rotate(0deg);
   -ms-transform: translateX(-50%) rotate(0deg);
   transform: translateX(-50%) rotate(0deg); }
+
+@media (max-width: 512px) {
+  #hero::after {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 232, 232, 0.5)), to(rgba(255, 232, 232, 0.5))), url("../img/hero-bg-sm.jpg") center top no-repeat;
+    background: -webkit-linear-gradient(left, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg-sm.jpg") center top no-repeat;
+    background: -o-linear-gradient(left, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg-sm.jpg") center top no-repeat;
+    background: linear-gradient(to right, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg-sm.jpg") center top no-repeat; } }
 
 #hero::before {
   content: '';
