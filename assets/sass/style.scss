@@ -600,6 +600,39 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Problem
+--------------------------------------------------------------*/
+#problem {
+  .description {
+    .graphic {
+      display: flex;
+      // this will center the image
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: inherit;
+        width: inherit;
+      }
+    }
+  }
+
+  .theme-circle-before {
+    &:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 100px;
+      height: 100px;
+      background: $theme-light;
+      z-index: 0;
+      border-radius: 50% 50% 50% 50%;
+      transform: translateX(-50%) translateY(18px) rotate(2deg);
+    }
+  }
+}
+
+/*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
 .services {
