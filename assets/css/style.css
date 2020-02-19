@@ -2030,3 +2030,12 @@ section {
 
 #footer .credits a {
   color: #a2cce3; }
+
+@media (max-width: 512px) {
+  body [data-aos].aos-animate, [data-aos][data-aos].aos-animate {
+    -webkit-transition-delay: 0s !important;
+    -o-transition-delay: 0s !important;
+    transition-delay: 0s !important;
+    -webkit-transition-duration: 0.3s !important;
+    -o-transition-duration: 0.3s !important;
+    transition-duration: 0.3s !important; } }
