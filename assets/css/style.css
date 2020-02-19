@@ -545,6 +545,9 @@ section {
   #problem .description .graphic img {
     max-width: inherit;
     width: inherit; }
+  @media (max-width: 512px) {
+    #problem .description .graphic img {
+      max-width: 200px; } }
 
 #problem .theme-circle-before:before {
   content: '';

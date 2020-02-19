@@ -613,6 +613,13 @@ section {
         max-width: inherit;
         width: inherit;
       }
+
+      // make images smaller on mobiles
+      @media (max-width: $sm-screen) {
+        img {
+          max-width: 200px;
+        }
+      }
     }
   }
 
