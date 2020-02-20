@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/templogo.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -45,7 +45,7 @@
       <div class="logo float-left">
         <h1 class="text-light">
           <a href="index.html#hero">
-            <span>Attent</span><span class="text-theme">iv</span>
+            <span>Attent</span><span class="text-theme">iv</span> <span> Medical</span>
           </a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -58,7 +58,7 @@
           <li><a href="index.html#about-us">About Us</a></li>
           <!-- TODO: add setup team member page first -->
           <!-- <li><a href="team.html">Team</a></li> -->
-          <li><a href="index.html#about-us">Contact Us</a></li>
+          <!-- <li><a href="index.html#about-us">Contact Us</a></li> -->
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -71,7 +71,7 @@
       <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <!-- <li data-target="#carouselExampleCaptions" data-slide-to="2"></li> -->
       </ol>
           
       <div class="carousel-inner">
@@ -79,30 +79,32 @@
         <div class="carousel-item active">
           <div class="carousel-container">
             <h2 class="animated fadeInDown">
-              Welcome to 
-              <span>Attent</span><span class="text-theme">iv</span>
+              <span>Attent</span><span class="text-theme">iv</span><span> Medical<span>
             </h2>
-            <p class="animated fadeInUp">Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system.</p>
-            <a href="#problem" class="btn-get-started animated fadeInUp">Read More</a>
+            <div class="gradient"><p class="animated fadeInUp">Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system.</p></div>
+            <a href="#about-us" class="btn-get-started animated fadeInUp gradient">Read More</a>
           </div>
         </div>
 
         <!-- Slide 2 -->
         <div class="carousel-item">
           <div class="carousel-container">
-            <h2 class="animated fadeInDown">IV Infiltration</h2>
-            <p class="animated fadeInUp">IV fluids leaking into tissues due to a IV treatment failure. This is a a problem more prevalent than you might think. </p>
-            <a href="#problem" class="btn-get-started animated fadeInUp">Read More</a>
+            <h2 class="animated fadeInDown"><span>The Problem:</span><span class="text-theme"> IV Infiltration</span></h2>
+            <div class="gradient"><p class="animated fadeInUp">Up to 90% of hospital patients receive life-critical treatment and nutrition through intravenous (IV) therapy. IV infiltration is a common failure mode that results in potentialy harmful IV fluids leaking into surrounding tissues. We aim to develop technolody that solves this problem for patients and hospitals.</p></div>
+            <a href="#problem" class="btn-get-started animated fadeInUp gradient">Read More</a>
           </div>
         </div>
 
+
         <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animated fadeInDown">Prevalency</h2>
-            <p class="animated fadeInUp">Up to 90% of hospital patients get IVs, but on average 46% fail.</p>
-          </div>
-        </div>
+        <!-- <div class="carousel-item"> -->
+          <!-- <div class="carousel-container"> -->
+            <!-- <h2 class="animated fadeInDown">Prevalency</h2> -->
+            <!-- <div class="gradient"><p class="animated fadeInUp">Up to 90% of hospital patients get IVs, but on average 46% fail.</p></div> -->
+          <!-- </div> -->
+        <!-- </div> -->
+
+
       </div>
 
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
@@ -123,11 +125,9 @@
     <section id="problem">
 
       <div class="container">
-        <div class="section-title mb-5">
+        <div class="section-title">
             <h2>IV Infiltration</h2>
-            <p>
-                This is when IV fluids leaks into tissues due to a IV treatment failure, and it's a problem more prevalent than you might think.
-            </p>
+            <!-- <p>This is when IV fluids leaks into tissues due to a IV treatment failure, and it's a problem more prevalent than you might think.</p> -->
         </div>
     
         <div class="row mb-5 description" data-aos="fade-up">
@@ -135,9 +135,9 @@
               <img src="assets/img/problem-desc-1.svg" class="img-fluid" alt="">
             </div>
             <div class="col-md-7 pt-4">
-              <h3>Occurs when IV fluids leak from the veins into surrounding tissues</h3>
+              <h3>IV fluids leak from the veins into surrounding tissues</h3>
               <p>
-                  A common failure mode that results in infiltration is catheter dislodgement, which is when the IV catheter punctures through or slips out of the vein.
+                  The most common failure mode that results in infiltration is <b>catheter dislodgement</b>, which is when the IV catheter punctures through or slips out of the vein.
               </p>
             </div>
         </div>
@@ -147,10 +147,9 @@
             <img src="assets/img/problem-desc-2.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>The current methods of detection are ineffective</h3>
+            <h3>Current methods of detection are not clinically effective</h3>
             <p>
-                Currently, nurses are required to perform hourly checkups on the IV site for symptoms of infiltration (including fluid bubble, redness, swelling),
-                but this is ineffective because these symptoms can sometimes be difficult to detect, resulting in hours of delays before proper treatment is administered.
+                Nurses are required to perform regular check-ups of the IV site, but sometimes symptoms of infiltration can be <b>difficult to detect</b>, resulting in hours of delays before proper treatment is administered. 
             </p>
           </div>
         </div>
@@ -160,10 +159,10 @@
             <img src="assets/img/problem-desc-3.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5">
-            <h3>There are serious long term consequences</h3>
+            <h3>Serious long term consequences for patients</h3>
             <p>
                 At this point, tissue damage may become <b>irreversible</b>, causing long-term damages that the patient will have to live with.
-                Infiltration can also happen with other types of catheter treatments, including central, arterial, and umbilical lines, so a <b>treatment-invariant solution is greatly needed</b>.
+                Infiltration can also happen with other types of catheter treatments, including central, arterial, and umbilical lines, so a <b>treatment-invariant</b> solution is greatly needed.
             </p>
           </div>
         </div>
@@ -172,7 +171,7 @@
     </section><!-- End Problem Section -->
 
     <!-- ======= Statistics Section ======= -->
-    <section class="services">
+    <section class="services section-bg">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
@@ -212,11 +211,11 @@
     </section><!-- End Statistics Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="product" class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+    <section id="product" class="why-us" data-aos="fade-up" date-aos-delay="200">
       <div class="container ">
         <div class="section-title">
           <h2>Our Product</h2>
-          <p>By integrating a unique sensor into the catheter tip, Attent<span class="text-theme">iv</span> focuses on the direct cause of infiltration by detecting penetration events through the blood vessel wall. This novel solution augments nurse’s ability to react to critical infiltration incidents without adding to their extensive workload through local and global monitoring solutions.</p>
+          <p>By integrating a unique sensor into the catheter tip, Attent<span class="text-theme">iv</span> distinguishes the root cause of infiltration through detecting penetration events through the blood vessel wall. This novel solution augments nurse’s ability to react to critical infiltration incidents without adding to their extensive workload through local and global monitoring solutions.</p>
         </div>
 
         <div class="row product-wrapper">
@@ -248,7 +247,7 @@
       <div class="container">
         <div class="section-title">
           <h2>About Us</h2>
-          <p>We are a med tech entrepreneurship team based out of the University of British Columbia in Vancouver, Canada. Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system. We are motivated to improve the standard of care for patients and reduce the economic burden for hospitals through offering patent-ready technology.</p>
+          <p>We are a med tech entrepreneurship team based out of the University of British Columbia in Vancouver, Canada. Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system. We are motivated to improve the standard of care for patients and reduce the economic burden for hospitals through offering patent-ready technology.</p> <br>
           <p><b>Feel free to connect with us if you’re interested in our products!</b></p>
         </div>
 
@@ -260,7 +259,7 @@
                   <div class="info-box">
                     <i class="bx bx-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>admin@attentivmedical.com</p>
+                    <p><a href="mailto:admin@attentivmedical.com">admin@attentivmedical.com</a></p>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -326,8 +325,8 @@
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
-              <strong>Phone:</strong>+1 778 952 5870<br>
-              <strong>Email:</strong>admin@attentivmedical.com<br>
+              <strong>Phone:</strong> +1 778 952 5870<br>
+              <strong>Email:</strong><a href="mailto:admin@attentivmedical.com"> admin@attentivmedical.com</a><br>
             </p>
           </div>
 

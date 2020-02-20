@@ -10,12 +10,13 @@ $theme-darker:rgb(73, 3, 3);
 $theme-dark:#840E0E;
 $theme:#B23030;
 $theme-light:#E3A0A0;
-$theme-lighter:#ffe8e8;
+$theme-lighter: #ffe8e8;
+$theme-transluscent: rgba(255, 255, 255, 0.6); 
 $theme-faint:#FEF7F7;
 $blue-dark:#020438; 
 $blue-light:#EEFAFF;
 $grey-dark: #2a2323;
-$grey:#908F98;
+$grey:#9f9da9;
 $grey-light:#f3f3f3ff;
 $black: #000000;
 
@@ -92,7 +93,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #header.header-scrolled {
   background: $grey;
-  opacity: 0.8;
+  opacity: 0.85;
   height: 60px;
   padding: 10px 0;
 }
@@ -147,7 +148,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: $text-dark;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -401,16 +402,23 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero h2 {
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #hero p {
   width: 80%;
-  font-size: 16px;
+  font-size: 18px;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
+  margin: 20px auto 20px auto;
+  font-weight: 500;
 }
+
+#hero .gradient {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.5) 0%, transparent 70%);
+}
+
+
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
@@ -452,7 +460,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border: 2px solid $theme;
 
   &:hover {
-    background: $theme-lighter;
+    background: $theme-transluscent;
     text-decoration: none;
   }
 }
@@ -521,7 +529,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -632,6 +640,13 @@ section {
   }
 }
 
+#problem h3{
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 450;
+}
+
+
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
@@ -734,7 +749,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  background: $theme-faint;
+  background: #fff;
 }
 
 .why-us .product-wrapper {
@@ -946,6 +961,10 @@ section {
 
 .about p:last-child {
   margin-bottom: 0;
+}
+
+.about-us {
+  background-color: $theme-faint;
 }
 
 /*--------------------------------------------------------------
@@ -1434,6 +1453,7 @@ section {
 
 .contact .info-box {
   color: #444;
+  background-color: #fff;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
@@ -2166,7 +2186,7 @@ section {
 
 #footer .footer-top .footer-info h3 {
   font-size: 18px;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 600;
@@ -2174,10 +2194,18 @@ section {
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
   color: #fff;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+#footer a:hover {
+  color: $theme-light;
 }
 
 #footer .footer-top .social-links a {
