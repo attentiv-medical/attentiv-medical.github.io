@@ -621,6 +621,13 @@ section {
         max-width: inherit;
         width: inherit;
       }
+
+      // make images smaller on mobiles
+      @media (max-width: $sm-screen) {
+        img {
+          max-width: 200px;
+        }
+      }
     }
   }
 
@@ -2297,3 +2304,14 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+// conditional AOS animation
+body [data-aos], [data-aos][data-aos]{
+  &.aos-animate {
+      // don't delay animation on mobile because it looks laggy
+      @media (max-width: $sm-screen) {
+        transition-delay: 0s !important;
+        transition-duration: 0.3s !important;
+      }
+  }
+} 
