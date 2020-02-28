@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(255, 232, 232, 0.5), rgba(255, 232, 232, 0.5)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/hero-bg.jpg") center top no-repeat;
   background-size: auto;
   z-index: 0;
   border-radius: 0 0 50% 50%;

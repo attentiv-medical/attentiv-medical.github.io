@@ -11,6 +11,7 @@ $theme-dark:#840E0E;
 $theme:#B23030;
 $theme-light:#E3A0A0;
 $theme-lighter: #ffe8e8;
+$theme-lightest #fff7f7:
 $theme-transluscent: rgba(255, 255, 255, 0.6); 
 $theme-faint:#FEF7F7;
 $blue-dark:#020438; 
@@ -362,9 +363,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, 
-    rgba(red($theme-lighter), green($theme-lighter), blue($theme-lighter), 0.5),
-    rgba(red($theme-lighter), green($theme-lighter), blue($theme-lighter), 0.5))
+  background: rgba(red($theme-lightest), green($theme-lightest), blue($theme-lightst), 0.5)
     , url("../img/hero-bg.jpg") center top no-repeat;
   background-size: auto;
   z-index: 0;
@@ -424,7 +423,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .gradient {
-  background-image: radial-gradient(rgba(255, 255, 255, 0.4) 0%, transparent 70%);
+  background-image: radial-gradient($theme-lightest 0%, transparent 70%);
 }
 
 #hero .logo img {
