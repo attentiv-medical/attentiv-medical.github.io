@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header.header-scrolled {
   background: $grey;
   opacity: 0.85;
-  height: 60px;
+  height: 65px;
   padding: 10px 0;
 }
 
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #header .logo img {
   padding: 0;
-  margin: 0;
+  margin: 0 20px 0 0;
   max-height: 40px;
 }
 
@@ -427,7 +427,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-image: radial-gradient(rgba(255, 255, 255, 0.4) 0%, transparent 70%);
 }
 
-
+#hero .logo img {
+  padding: 0;
+  margin: 0 10px 0 0;
+  max-height: 40px;
+}
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
@@ -983,6 +987,19 @@ section {
   background-color: $theme-faint;
 }
 
+#about-us .picture {
+  width: 175px;
+  /*border: 2px solid #000000;*/
+  margin: 0 20px 30px 20px;
+  float: left;
+}
+
+#about-us h4 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -1464,7 +1481,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .contact .info-box {
