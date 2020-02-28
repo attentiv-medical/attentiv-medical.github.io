@@ -107,6 +107,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #B23030;
 }
 
+.text-underline {
+  border-bottom: solid 5px #B23030;
+  display: inline;
+  padding-bottom: 3px;
+  /*text-decoration: underline;*/
+  /*text-decoration-color: $theme;*/
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
