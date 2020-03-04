@@ -21,7 +21,10 @@ $grey:#9f9da9;
 $grey-light:#f3f3f3ff;
 $black: #000000;
 
-$sm-screen: 512px;
+$sm-screen: 576px;
+$md-screen: 768px;
+$lg-screen: 992px;
+$xl-screen: 1200px;
 $text-dark: #000000;
 
 /*--------------------------------------------------------------
@@ -986,14 +989,6 @@ section {
   background-color: $theme-faint;
 }
 
-#about-us .picture {
-  width: 175px;
-  /*border: 2px solid #000000;*/
-  margin: 0 20px 30px 20px;
-  border-radius: 50%;
-  float: left;
-}
-
 #about-us h4 {
   font-weight: 400;
   font-size: 22px;
@@ -1002,6 +997,33 @@ section {
 
 #about-us p {
   margin-top: 5px;
+}
+
+#about-us {
+  img.picture {
+    width: inherit;
+    height: auto;
+    /*border: 2px solid #000000;*/
+    border-radius: 50%;
+    display: inline-block;
+
+    /* this is center the image on screen on mobile */
+    @media (max-width: $lg-screen) {
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .member-info {
+    margin-bottom: 10px;
+    text-align: left;
+    @media (max-width: $lg-screen) {
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
 }
 
 /*--------------------------------------------------------------
