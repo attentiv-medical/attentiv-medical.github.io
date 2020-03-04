@@ -81,15 +81,20 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px; }
-
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #111;
-  text-decoration: none; }
+  #header .logo h1 a, #header .logo h1 a:hover {
+    color: #111;
+    text-decoration: none; }
+  @media (max-width: 576px) {
+    #header .logo h1 {
+      font-size: 20px; } }
 
 #header .logo img {
   padding: 0;
   margin: 0 20px 0 0;
   max-height: 40px; }
+  @media (max-width: 576px) {
+    #header .logo img {
+      max-height: 30px; } }
 
 #main {
   margin-top: 80px; }
