@@ -26,7 +26,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/team.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Moderna - v2.0.0
@@ -37,14 +37,15 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top header-transparent">
     <div class="container">
+
       <div class="logo float-left">
         <h1 class="text-light">
-          <a href="index.html#hero">
-            <span>Attent</span><span class="text-theme">iv</span>
+          <a href="index.html">
+            <!-- <span>Attent</span><span class="text-theme">iv</span> <span> Medical</span> -->
+            <img src="assets/img/Icon-redOnWhite.png" class="logo" alt="logo" /><span>Attentiv Medical</span>
           </a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -54,53 +55,50 @@
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
           <li><a href="index.html#hero">Home</a></li>
-          <li><a href="index.html#about-us">About Us</a></li>
-          <li class="active"><a href="team.html">Team</a></li>
-          <li><a href="index.html#about-us">Contact Us</a></li>
+          <li class="active"><a href="/team.html">Our Team</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
-
-    <!-- ======= Our Team Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Our Team</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Our Team</li>
-          </ol>
-        </div>
-
+    <!-- ======= Intro Section ======= -->
+    <section id="hero" class="atv-hero d-flex justify-content-center align-items-center bg-theme">
+      <div id="heroCarousel" class="container carousel carousel-fade pb-5" data-interval="false">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="carousel-container">
+              <h2 class="animated fadeInDown">
+                <!-- <span>Attent</span><span class="text-theme">iv</span><span> Medical<span> -->
+                <span class="text-underline gradient">Our Team</span>
+              </h2>
+            </div>
+          </div>
       </div>
-    </section><!-- End Our Team Section -->
+    </section><!-- End Hero -->
 
+  <main id="main" class="atv-content">
     <!-- ======= Team Section ======= -->
-    <section class="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+    <section class="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="200">
       <div class="container">
 
         <div class="row">
-
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
+                <img src="assets/img/team/gordon.jpg" class="img-fluid" alt="">
+                <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Animi est delectus alias quam repellendus nihil nobis dolor. Est sapiente occaecati et dolore. Omnis aut ut nesciunt explicabo qui. Eius nam deleniti ut omnis repudiandae perferendis qui. Neque non quidem sit sed pariatur quia modi ea occaecati. Incidunt ea non est corporis in.</p>
+                <h4>Gordon Yeh</h4>
+                <span>Software Engineer</span>
+                <p>Entrepreneur at heart, Gordon is a computer engineer with previous experiences in startups. He looks forward to leveraging his experiences in software development and business finances.</p>
               </div>
             </div>
           </div>
@@ -108,18 +106,12 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                <img src="assets/img/team/rio.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque. Dolores eum non.</p>
+                <h4>Rio Nishida</h4>
+                <span>Hardware Engineer</span>
+                <p>Highly passionate about sustainable design, Rio likes problem-solving in fast-paced environments. His excellent instincts for prototyping are invaluable to Attentiv’s product development.</p>
               </div>
             </div>
           </div>
@@ -127,18 +119,12 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                <img src="assets/img/team/jbo.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Ut enim possimus nihil cupiditate beatae. Veniam facere quae non qui necessitatibus rerum eos vero. Maxime sit sunt quo dolor autem est qui quaerat aliquid. Tenetur possimus qui enim.</p>
+                <h4>Jessica Bo</h4>
+                <span>Biomedical Engineer</span>
+                <p>Jessica has 3 years of experience in medical device design and multiple internships in the software industry. She is passionate about knowledge translation between biomedical research and entrepreneurship.</p>
               </div>
             </div>
           </div>
@@ -146,18 +132,12 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                <img src="assets/img/team/kevin.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Sint qui cupiditate. Asperiores fugit impedit aspernatur et mollitia. Molestiae qui placeat labore assumenda id qui nesciunt quo reprehenderit. Rem dolores similique quis soluta culpa enim quia ratione ea.</p>
+                <h4>Kevin Ta</h4>
+                <span>Mechatronics Engineer</span>
+                <p>Kevin has diverse work experience across biomedical research & start-ups, the clean energy sector, and robotics research. He also captains the UBC Supermileage vehicle design team.</p>
               </div>
             </div>
           </div>
@@ -165,18 +145,12 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                <img src="assets/img/team/sid.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Niall Katz</h4>
-                <span>Marketing</span>
-                <p>Aut ex esse explicabo quia harum ea accusamus excepturi. Temporibus at quia quisquam veritatis impedit. Porro laborum voluptatum sed necessitatibus a saepe. Deserunt laborum quasi consequatur voluptatum iusto sint qui fuga vel. Enim eveniet sed quibusdam rerum in. Non dicta architecto consequatur quo praesentium nesciunt.</p>
+                <h4>Siddharth Birla</h4>
+                <span>Business Strategist</span>
+                <p>Siddharth has extensive work experience in the field of business development and strategy. He is interested in growth hacking for start-up firms in the healthcare industry.</p>
               </div>
             </div>
           </div>
@@ -184,18 +158,12 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                <img src="assets/img/team/jyu.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Demi Lewis</h4>
-                <span>Financing</span>
-                <p>Amet labore numquam corrupti est. Nostrum amet voluptas consectetur dolor voluptatem architecto distinctio consequuntur eligendi. Quam impedit enim aut nesciunt aut dicta quam exercitationem. Reprehenderit exercitationem magnam. Ullam similique ut voluptas totam nobis porro accusamus nulla omnis.</p>
+                <h4>Jessica Yu</h4>
+                <span>Marketing Director</span>
+                <p>As a marketing and logistics major at UBC, Jessica has an extensive work portfolio in doing market research for tech start-ups. She looks forward to applying her expertise to expand Attentiv's customer base.</p>
               </div>
             </div>
           </div>
@@ -208,38 +176,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Our Product</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-              <strong>Phone:</strong>+1 778 952 5870<br>
-              <strong>Email:</strong>admin@attentivmedical.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-3 offset-lg-3 col-md-6 footer-info">
-            <h3>About Attentiv</h3>
-            <p>Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system.</p>
-            <div class="social-links mt-3">
-              <a href="https://www.linkedin.com/company/attentivmedical" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
+  <footer id="footer"> <!-- data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500"> -->
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Attentiv Medical</span></strong>. All Rights Reserved
@@ -250,6 +187,13 @@
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <div>Icons made by
+            <a href="https://www.flaticon.com/authors/smashicons" title="SmashIcons">SmashIcons</a>,
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
+            <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a>,
+            <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
       </div>
     </div>
   </footer><!-- End Footer -->

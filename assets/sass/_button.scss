@@ -1,0 +1,44 @@
+.atv-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 15px;
+  transition: 0.5s;
+  line-height: 1;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  width: fit-content;
+
+  // Sizing
+  &--stretch {
+    width: 100%;
+  }
+
+  // Colors
+  &--theme-dark {
+    border: 2px solid $theme-dark;
+    background-color: $theme-dark;
+    color: white;
+
+    &:hover {
+      color: white;
+      background-color: $theme;
+      border: 2px solid $theme-light;
+      text-decoration: none;
+      opacity: 1;
+    }
+  }
+
+  &--outline {
+    color: $text-dark;
+    border: 2px solid $theme;
+
+    &:hover {
+      background: $theme-transluscent;
+      text-decoration: none;
+    }
+  }
+}

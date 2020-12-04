@@ -29,7 +29,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/index.css" rel="stylesheet">
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158765234-1"></script>
@@ -69,13 +69,7 @@
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html#hero">Home</a></li>
-          <li><a href="index.html#problem">IV Infiltration</a></li>
-          <li><a href="index.html#product">Our Product</a></li>
-          <li><a href="index.html#about-us">About Us</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-          <!-- TODO: add setup team member page first -->
-          <!-- <li><a href="team.html">Team</a></li> -->
-          <!-- <li><a href="index.html#about-us">Contact Us</a></li> -->
+          <li><a href="/team.html">Our Team</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -83,7 +77,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Intro Section ======= -->
-  <section id="hero" class="d-flex justify-content-center align-items-center bg-theme">
+  <section id="hero" class="atv-hero atv-hero--bowl d-flex justify-content-center align-items-center bg-theme">
     <div id="heroCarousel" class="container carousel carousel-fade pb-5" data-interval="false">
       <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -104,7 +98,7 @@
                 Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system.
               </p>
             </div>
-            <a href="#about-us" class="btn-get-started animated fadeInUp gradient">About Us</a>
+            <a href="#about-us" class="atv-btn atv-btn--outline animated fadeInUp gradient">About Us</a>
           </div>
         </div>
 
@@ -119,17 +113,9 @@
                 We aim to develop technology that solves this problem for patients and hospitals.
               </p>
             </div>
-            <a href="#problem" class="btn-get-started animated fadeInUp gradient">More on IV Infiltration</a>
+            <a href="#problem" class="atv-btn atv-btn--outline animated fadeInUp gradient">More on IV Infiltration</a>
           </div>
         </div>
-
-        <!-- Slide 3 -->
-        <!-- <div class="carousel-item"> -->
-          <!-- <div class="carousel-container"> -->
-            <!-- <h2 class="animated fadeInDown">Prevalency</h2> -->
-            <!-- <div class="gradient"><p class="animated fadeInUp">Up to 90% of hospital patients get IVs, but on average 46% fail.</p></div> -->
-          <!-- </div> -->
-        <!-- </div> -->
       </div>
 
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
@@ -144,8 +130,8 @@
 
     </div>
   </section><!-- End Hero -->
+
   <main id="main">
-    
     <!-- ======= Our Story Section ======= -->
     <section class="bg-theme">
       <div class="container">
@@ -153,13 +139,13 @@
           <h2>Our Story</h2>
         </div>  
   
-        <div class="row">
+        <div class="row justify-content-around">
           <div class="col-lg-6 video-box">
             <img src="/assets/img/team/team-photo-sm.jpg" class="img-fluid video-box-placeholder" alt="attentiv team group photo">
             <a href="https://www.youtube.com/watch?v=FXWrNxUOlpI&feature=youtu.be" class="venobox video-box-play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+          <div class="col-lg-5 d-flex flex-column justify-content-center pt-2">
             <p>
               We are a med tech entrepreneurship team based out of the University of British Columbia in Vancouver, Canada. 
               Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system. 
@@ -168,6 +154,7 @@
               We are motivated to improve the standard of care for patients and reduce the economic burden for hospitals through offering patent-ready technology. 
               Connect with us if you’re interested in our products!
             </p>
+            <a class="atv-btn atv-btn--theme-dark mt-2" href="/team.html">Meet our team</a>
           </div>
         </div>
 
@@ -303,82 +290,7 @@
       </div>
     </section><!-- End Why Us Section -->
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us" data-aos="fade-up" date-aos-delay="200">
-      <div class="container">
-        <div class="section-title">
-          <h2>About Us</h2>
-          <p>We are a med tech entrepreneurship team based out of the University of British Columbia in Vancouver, Canada. Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system. We are motivated to improve the standard of care for patients and reduce the economic burden for hospitals through offering patent-ready technology.</p> <br>
-        </div>
-
-        <div class="row justify-content-md-center">
-          <div class="col-lg-3 col-xl-2">
-                <img class="picture" src="assets/img/team/gordon.jpg" alt="logo"/>
-          </div>
-
-          <div class="col-lg-3 col-xl-4 member-info">
-            <h4 class="text-theme">Gordon Yeh</h4>
-            <b>Software Engineer</b>
-            <p>Entrepreneur at heart, Gordon is a computer engineer with previous experiences in startups. He looks forward to leveraging his experiences in software development and business finances.</p>
-          </div>
-
-
-          <div class="col-lg-3 col-xl-2">
-              <img class="picture" src="assets/img/team/rio.jpg" alt="logo"/>
-          </div>
-          <div class="col-lg-3 col-xl-4 member-info">
-            <h4 class="text-theme">Rio Nishida</h4>
-            <b>Hardware Engineer</b>
-            <p>Highly passionate about sustainable design, Rio likes problem-solving in fast-paced environments. His excellent instincts for prototyping are invaluable to Attentiv’s product development.</p>
-          </div>
-        </div>
-
-        <div class="row justify-content-md-center">
-          <div class="col-lg-3 col-xl-2">
-            <img class="picture" src="assets/img/team/jbo.jpeg" alt="logo"/>
-          </div>
-
-          <div class="col-lg-3 col-xl-4 member-info">
-            <h4 class="text-theme">Jessica Bo</h4>
-            <b>Biomedical Engineer</b>
-            <p>Jessica has 3 years of experience in medical device design and multiple internships in the software industry. She is passionate about knowledge translation between biomedical research and entrepreneurship.</p>
-          </div>
-
-          <div class="col-lg-3 col-xl-2">
-              <img class="picture" src="assets/img/team/kevin.jpg" alt="logo"/>
-          </div>
-          <div class="col-lg-3 col-xl-4 member-info">
-            <h4 class="text-theme">Kevin Ta</h4>
-            <b>Mechatronics Engineer</b>
-            <p>Kevin has diverse work experience across biomedical research & start-ups, the clean energy sector, and robotics research. He also captains the UBC Supermileage vehicle design team.</p>
-          </div>
-        </div>
-
-        <div class="row justify-content-md-center">
-          <div class="col-lg-3 col-xl-2">
-            <img class="picture" src="assets/img/team/sid.jpg" alt="logo"/>
-          </div>
-
-          <div class="col-lg-3 col-xl-4 member-info">
-            <h4 class="text-theme">Siddharth Birla</h4>
-            <b>Business Strategist</b>
-            <p>Siddharth has extensive work experience in the field of business development and strategy. He is interested in growth hacking for start-up firms in the healthcare industry.</p>
-          </div>
-
-          <div class="col-lg-3 col-xl-2">
-              <img class="picture" src="assets/img/team/jyu.jpg" alt="logo"/>
-          </div>
-          <div class="col-lg-3 col-xl-4 member-info">
-              <h4 class="text-theme">Jessica Yu</h4>
-              <b>Marketing Director</b>
-              <p>As a marketing and logistics major at UBC, Jessica has an extensive work portfolio in doing market research for tech start-ups. She looks forward to applying her expertise to expand Attentiv's customer base.</p>
-
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Us Section -->
-
-    <section id="contact" data-aos="fade-up" date-aos-delay="200">
+    <section id="contact" class="bg-theme" data-aos="fade-up" date-aos-delay="200">
       <div class="container">
         <div class="section-title">
           <h2>Contact Us</h2>
@@ -417,37 +329,6 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer"> <!-- data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500"> -->
-    <!-- <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#product">Our Product</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about-us">About us</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-              <strong>Phone:</strong> +1 778 952 5870<br>
-              <strong>Email:</strong><a href="mailto:admin@attentivmedical.com"> admin@attentivmedical.com</a><br>
-            </p>
-          </div>
-
-          <div class="col-lg-3 offset-lg-3 col-md-6 footer-info">
-            <h3>About Attentiv</h3>
-            <p>Our mission is to deliver innovative solutions that challenges the status quo of persisting and large-scale issues in the healthcare system.</p>
-            <div class="social-links mt-3">
-              <a href="https://www.linkedin.com/company/attentivmedical" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div> -->
-
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Attentiv Medical</span></strong>. All Rights Reserved
